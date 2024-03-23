@@ -1,0 +1,12 @@
+server:
+  port: 9092
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: Orhidee123
+    url: jdbc:postgresql://localhost:5432/ticket
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
